@@ -8,7 +8,7 @@ repository = "https://github.com/tauri-apps/tauri-plugin-window-state"
 edition = "2021"
 
 [dependencies]
-tauri = "1"
+tauri = { version = "2.0.0-alpha.0", features = ["api-all", "updater"] }
 serde = "1.0"
 thiserror = "1"
 bincode = "1.3"
